@@ -6,6 +6,7 @@ module.exports = {
       await queryInterface.bulkInsert('reviews', [{
         rating: '10',
         description: 'nice',
+        product_id:1,
         createdAt:new Date(),
         updatedAt:new Date()
      
